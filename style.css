@@ -151,3 +151,19 @@ ul li::marker {
     text-align: center;
     align-items: center;
 }
+/*footer*/
+.footer{
+    display:flex ;
+    justify-content: space-between;
+}
+.futer{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 16px;
+}
+.futer-left{
+    display: flex;
+    justify-content: space-between;
+    gap :10px;
+}
