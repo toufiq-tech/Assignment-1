@@ -18,6 +18,7 @@
     background-color: #2563EB;
     color: #ffffff;
     padding: 15px 40px;
+    border: none;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 700;
@@ -31,7 +32,7 @@
     align-items: center;
 }
 /*Hero Section*/
-section{
+.Hsection{
     background-image:linear-gradient(rgba(0,0,0,0.5),
                         rgba(0,0,0,0.5)),url('./images/banner.jpg');
     height: 100%;
@@ -51,5 +52,9 @@ section{
     font-size: 22px;
 }
 .hero .btn{
-    margin-top: 150px;
+    margin-top: 400px;
+} 
+/*Speaker Intro*/
+.speaker h1{
+    align-items: center;
 }
