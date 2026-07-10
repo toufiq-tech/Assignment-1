@@ -58,6 +58,7 @@
 /*Speaker Intro*/
 .container h1{
     text-align: center;
+    font-size: 56px;
     font-weight: 700;
     margin: 50px;
 }
@@ -92,6 +93,65 @@
 }
 /*Offer section*/
 .offer{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.container h2{
+    text-align: left;
+    font-size: 20px;
+    color: #0D1B2A;
+}
+.container h3{
+    text-align: center;
+    font-size: 48px;
+    color: #0D1B2A;
+}
+.container h4{
+    text-align: center;
+    color: #575757;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.offer-item{
+    border: #E5E7EB solid 1px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.offer-item h2{
+    font-size: 44px;
+    text-align: left;
+}
+.offer-item p{
+    font-size: 14px;
+    text-align: left;
+    color: #333333;
+}
+.offer-item ul{
+    font-size: 14px;
+    text-align: left;
+    color: #333333;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+ul li{
+    margin-bottom: 15px;
+}
+ul li::marker {
+    color: #2563EB;
+}
+.offer-item hr{
+    margin: 20px 0;
+    border: #616161 0.5px solid;
+}
+.btn2{
+    padding: 11px 110px;
+    border-radius: 10px;
+    border-color: #2563EB;
+    color: #2563EB;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
 }
