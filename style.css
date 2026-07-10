@@ -151,6 +151,25 @@ ul li::marker {
     text-align: center;
     align-items: center;
 }
+/*People Opinion*/
+.saying{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 50px;
+    margin:50px 0;
+}
+.saying p{
+    font-size: 24px;
+}
+.saying img{
+    border-radius: 50px 0 50px 0;
+    width: 100%;
+    background-position: cover;
+}
+
+
+
+
 /*footer*/
 .footer{
     display:flex ;
