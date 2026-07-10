@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Inter", sans-serif
 }
 .container {
     max-width: 1200px;
@@ -55,6 +56,37 @@
     margin-top: 400px;
 } 
 /*Speaker Intro*/
-.speaker h1{
-    align-items: center;
+.container h1{
+    text-align: center;
+    font-weight: 700;
+    margin: 50px;
+}
+.speaker{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+}
+.speaker-item{
+    border: #E5E7EB solid 1px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+.speaker-item h4{
+    font-size: 12px;
+    color: #2563EB;
+    padding: 5px;
+}
+.speaker-item h2{
+    font-size: 20px;
+    color: #0D1B2A;
+    padding: 5px;
+}
+.speaker-item p{
+    font-size: 14px;
+    color: #575757;
+    padding: 5px;
+}
+.speaker-item img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
 }
