@@ -49,8 +49,9 @@
 .hero h1{
     font-size: 80px;
 }
-.hero h5{
+.hero h3{
     font-size: 22px;
+    color: #ffffff;
 }
 .hero .btn{
     margin-top: 400px;
@@ -97,28 +98,23 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
-.container h2{
+.offer-item h4{
     text-align: left;
-    font-size: 20px;
-    color: #0D1B2A;
-}
-.container h3{
-    text-align: center;
     font-size: 48px;
     color: #0D1B2A;
-}
-.container h4{
-    text-align: center;
-    color: #575757;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 50px;
 }
 .offer-item{
     border: #E5E7EB solid 1px;
     padding-bottom: 15px;
     border-radius: 20px;
     padding: 30px;
+}
+.container h5{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    columns: #575757;
+    margin-bottom: 50px;
 }
 .offer-item h2{
     font-size: 44px;
