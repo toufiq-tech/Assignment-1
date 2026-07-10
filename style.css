@@ -166,11 +166,7 @@ ul li::marker {
     width: 100%;
     background-position: cover;
 }
-
-
-
-
-/*footer*/
+/*footer section*/
 .footer{
     display:flex ;
     justify-content: space-between;
